@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name='name-count',
+    name='number-count',
     version='0.0.3',
     description='The number-count module makes it simple for you to do number manipulation and perform various operations on numbers.',
     py_modules=["number_count"],
