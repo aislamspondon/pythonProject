@@ -4,10 +4,10 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name='number_utility',
+    name='number_count',
     version='0.0.3',
-    description='The number-utility module makes it simple for you to do number manipulation and perform various operations on numbers.',
-    py_modules=["number_utility"],
+    description='The number-count module makes it simple for you to do number manipulation and perform various operations on numbers.',
+    py_modules=["number_count"],
     package_dir={'': 'src'},
     extras_require={
         "dev": [
