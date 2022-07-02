@@ -2,7 +2,7 @@ import sys
 
 sys.path.append("..")
 
-from src.number_utility import *
+from src.number_compare import *
 
 
 def test_number_utility_reverse_num():
